@@ -5,7 +5,7 @@
 #import "PINCache.h"
 
 #if !__has_include (<ZSPINOperation/PINOperation.h>)
-#import "PINOperation.h"
+#import "ZSPINOperation.h"
 #else
 #import <ZSPINOperation/PINOperation.h>
 #endif

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CC01052C1E27110D00890935"
-               BuildableName = "PINOperation.framework"
-               BlueprintName = "PINOperation"
-               ReferencedContainer = "container:PINOperation.xcodeproj">
+               BuildableName = "ZSPINOperation.framework"
+               BlueprintName = "ZSPINOperation"
+               ReferencedContainer = "container:ZSPINOperation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,29 +27,27 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CC01052C1E27110D00890935"
+            BuildableName = "ZSPINOperation.framework"
+            BlueprintName = "ZSPINOperation"
+            ReferencedContainer = "container:ZSPINOperation.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CC0105551E27116600890935"
-               BuildableName = "PINOperationTests.xctest"
-               BlueprintName = "PINOperationTests"
-               ReferencedContainer = "container:PINOperation.xcodeproj">
+               BuildableName = "ZSPINOperationTests.xctest"
+               BlueprintName = "ZSPINOperationTests"
+               ReferencedContainer = "container:ZSPINOperation.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CC01052C1E27110D00890935"
-            BuildableName = "PINOperation.framework"
-            BlueprintName = "PINOperation"
-            ReferencedContainer = "container:PINOperation.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -65,13 +63,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CC01052C1E27110D00890935"
-            BuildableName = "PINOperation.framework"
-            BlueprintName = "PINOperation"
-            ReferencedContainer = "container:PINOperation.xcodeproj">
+            BuildableName = "ZSPINOperation.framework"
+            BlueprintName = "ZSPINOperation"
+            ReferencedContainer = "container:ZSPINOperation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -83,9 +79,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CC01052C1E27110D00890935"
-            BuildableName = "PINOperation.framework"
-            BlueprintName = "PINOperation"
-            ReferencedContainer = "container:PINOperation.xcodeproj">
+            BuildableName = "ZSPINOperation.framework"
+            BlueprintName = "ZSPINOperation"
+            ReferencedContainer = "container:ZSPINOperation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

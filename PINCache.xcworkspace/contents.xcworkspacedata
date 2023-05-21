@@ -5,6 +5,6 @@
       location = "container:PINCache.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Carthage/Checkouts/PINOperation/PINOperation.xcodeproj">
+      location = "group:Carthage/Checkouts/PINOperation/ZSPINOperation.xcodeproj">
    </FileRef>
 </Workspace>

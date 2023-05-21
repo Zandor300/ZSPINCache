@@ -14,9 +14,9 @@
 		3201179824444862004FD783 /* PINOperationTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0105861E2711B700890935 /* PINOperationTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3201179924444862004FD783 /* PINOperationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0105821E2711B700890935 /* PINOperationGroup.m */; };
 		3201179A24444862004FD783 /* PINOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0105851E2711B700890935 /* PINOperationQueue.m */; };
-		CC01055B1E27116600890935 /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01052D1E27110D00890935 /* PINOperation.framework */; };
-		CC01056A1E27117300890935 /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01053D1E27113700890935 /* PINOperation.framework */; };
-		CC0105791E27117F00890935 /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01054A1E27114300890935 /* PINOperation.framework */; };
+		CC01055B1E27116600890935 /* ZSPINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01052D1E27110D00890935 /* ZSPINOperation.framework */; };
+		CC01056A1E27117300890935 /* ZSPINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01053D1E27113700890935 /* ZSPINOperation.framework */; };
+		CC0105791E27117F00890935 /* ZSPINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC01054A1E27114300890935 /* ZSPINOperation.framework */; };
 		CC0105871E2711B700890935 /* PINOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0105801E2711B700890935 /* PINOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC0105881E2711B700890935 /* PINOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0105801E2711B700890935 /* PINOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC0105891E2711B700890935 /* PINOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0105801E2711B700890935 /* PINOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,14 +71,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3201178C24444859004FD783 /* PINOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC01052D1E27110D00890935 /* PINOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC01053D1E27113700890935 /* PINOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC01054A1E27114300890935 /* PINOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC0105561E27116600890935 /* PINOperationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PINOperationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3201178C24444859004FD783 /* ZSPINOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZSPINOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC01052D1E27110D00890935 /* ZSPINOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZSPINOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC01053D1E27113700890935 /* ZSPINOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZSPINOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC01054A1E27114300890935 /* ZSPINOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZSPINOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0105561E27116600890935 /* ZSPINOperationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSPINOperationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC01055A1E27116600890935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Tests/Info.plist; sourceTree = "<group>"; };
-		CC0105651E27117300890935 /* PINOperation-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PINOperation-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC0105741E27117F00890935 /* PINOperation-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PINOperation-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0105651E27117300890935 /* ZSPINOperation-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZSPINOperation-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0105741E27117F00890935 /* ZSPINOperation-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZSPINOperation-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0105801E2711B700890935 /* PINOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINOperation.h; sourceTree = "<group>"; };
 		CC0105811E2711B700890935 /* PINOperationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINOperationGroup.h; sourceTree = "<group>"; };
 		CC0105821E2711B700890935 /* PINOperationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINOperationGroup.m; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC01055B1E27116600890935 /* PINOperation.framework in Frameworks */,
+				CC01055B1E27116600890935 /* ZSPINOperation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC01056A1E27117300890935 /* PINOperation.framework in Frameworks */,
+				CC01056A1E27117300890935 /* ZSPINOperation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC0105791E27117F00890935 /* PINOperation.framework in Frameworks */,
+				CC0105791E27117F00890935 /* ZSPINOperation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,13 +162,13 @@
 		CC01052E1E27110D00890935 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC01052D1E27110D00890935 /* PINOperation.framework */,
-				CC01053D1E27113700890935 /* PINOperation.framework */,
-				CC01054A1E27114300890935 /* PINOperation.framework */,
-				CC0105561E27116600890935 /* PINOperationTests.xctest */,
-				CC0105651E27117300890935 /* PINOperation-tvOSTests.xctest */,
-				CC0105741E27117F00890935 /* PINOperation-macOSTests.xctest */,
-				3201178C24444859004FD783 /* PINOperation.framework */,
+				CC01052D1E27110D00890935 /* ZSPINOperation.framework */,
+				CC01053D1E27113700890935 /* ZSPINOperation.framework */,
+				CC01054A1E27114300890935 /* ZSPINOperation.framework */,
+				CC0105561E27116600890935 /* ZSPINOperationTests.xctest */,
+				CC0105651E27117300890935 /* ZSPINOperation-tvOSTests.xctest */,
+				CC0105741E27117F00890935 /* ZSPINOperation-macOSTests.xctest */,
+				3201178C24444859004FD783 /* ZSPINOperation.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,9 +252,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3201178B24444859004FD783 /* PINOperation-watchOS */ = {
+		3201178B24444859004FD783 /* ZSPINOperation-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3201179324444859004FD783 /* Build configuration list for PBXNativeTarget "PINOperation-watchOS" */;
+			buildConfigurationList = 3201179324444859004FD783 /* Build configuration list for PBXNativeTarget "ZSPINOperation-watchOS" */;
 			buildPhases = (
 				3201178724444859004FD783 /* Headers */,
 				3201178824444859004FD783 /* Sources */,
@@ -265,14 +265,14 @@
 			);
 			dependencies = (
 			);
-			name = "PINOperation-watchOS";
+			name = "ZSPINOperation-watchOS";
 			productName = "PINOperation-watchOS";
-			productReference = 3201178C24444859004FD783 /* PINOperation.framework */;
+			productReference = 3201178C24444859004FD783 /* ZSPINOperation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CC01052C1E27110D00890935 /* PINOperation */ = {
+		CC01052C1E27110D00890935 /* ZSPINOperation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC0105351E27110D00890935 /* Build configuration list for PBXNativeTarget "PINOperation" */;
+			buildConfigurationList = CC0105351E27110D00890935 /* Build configuration list for PBXNativeTarget "ZSPINOperation" */;
 			buildPhases = (
 				CC0105281E27110D00890935 /* Sources */,
 				CC0105291E27110D00890935 /* Frameworks */,
@@ -283,14 +283,14 @@
 			);
 			dependencies = (
 			);
-			name = PINOperation;
+			name = ZSPINOperation;
 			productName = PINOperation;
-			productReference = CC01052D1E27110D00890935 /* PINOperation.framework */;
+			productReference = CC01052D1E27110D00890935 /* ZSPINOperation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CC01053C1E27113700890935 /* PINOperation-tvOS */ = {
+		CC01053C1E27113700890935 /* ZSPINOperation-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC0105421E27113700890935 /* Build configuration list for PBXNativeTarget "PINOperation-tvOS" */;
+			buildConfigurationList = CC0105421E27113700890935 /* Build configuration list for PBXNativeTarget "ZSPINOperation-tvOS" */;
 			buildPhases = (
 				CC0105381E27113700890935 /* Sources */,
 				CC0105391E27113700890935 /* Frameworks */,
@@ -301,14 +301,14 @@
 			);
 			dependencies = (
 			);
-			name = "PINOperation-tvOS";
+			name = "ZSPINOperation-tvOS";
 			productName = "PINOperation-tvOS";
-			productReference = CC01053D1E27113700890935 /* PINOperation.framework */;
+			productReference = CC01053D1E27113700890935 /* ZSPINOperation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CC0105491E27114300890935 /* PINOperation-macOS */ = {
+		CC0105491E27114300890935 /* ZSPINOperation-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC01054F1E27114300890935 /* Build configuration list for PBXNativeTarget "PINOperation-macOS" */;
+			buildConfigurationList = CC01054F1E27114300890935 /* Build configuration list for PBXNativeTarget "ZSPINOperation-macOS" */;
 			buildPhases = (
 				CC0105451E27114300890935 /* Sources */,
 				CC0105461E27114300890935 /* Frameworks */,
@@ -319,14 +319,14 @@
 			);
 			dependencies = (
 			);
-			name = "PINOperation-macOS";
+			name = "ZSPINOperation-macOS";
 			productName = "PINOperation-macOS";
-			productReference = CC01054A1E27114300890935 /* PINOperation.framework */;
+			productReference = CC01054A1E27114300890935 /* ZSPINOperation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CC0105551E27116600890935 /* PINOperationTests */ = {
+		CC0105551E27116600890935 /* ZSPINOperationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC01055E1E27116600890935 /* Build configuration list for PBXNativeTarget "PINOperationTests" */;
+			buildConfigurationList = CC01055E1E27116600890935 /* Build configuration list for PBXNativeTarget "ZSPINOperationTests" */;
 			buildPhases = (
 				CC0105521E27116600890935 /* Sources */,
 				CC0105531E27116600890935 /* Frameworks */,
@@ -337,14 +337,14 @@
 			dependencies = (
 				CC01055D1E27116600890935 /* PBXTargetDependency */,
 			);
-			name = PINOperationTests;
+			name = ZSPINOperationTests;
 			productName = PINOperationTests;
-			productReference = CC0105561E27116600890935 /* PINOperationTests.xctest */;
+			productReference = CC0105561E27116600890935 /* ZSPINOperationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CC0105641E27117300890935 /* PINOperation-tvOSTests */ = {
+		CC0105641E27117300890935 /* ZSPINOperation-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC01056D1E27117300890935 /* Build configuration list for PBXNativeTarget "PINOperation-tvOSTests" */;
+			buildConfigurationList = CC01056D1E27117300890935 /* Build configuration list for PBXNativeTarget "ZSPINOperation-tvOSTests" */;
 			buildPhases = (
 				CC0105611E27117300890935 /* Sources */,
 				CC0105621E27117300890935 /* Frameworks */,
@@ -355,14 +355,14 @@
 			dependencies = (
 				CC01056C1E27117300890935 /* PBXTargetDependency */,
 			);
-			name = "PINOperation-tvOSTests";
+			name = "ZSPINOperation-tvOSTests";
 			productName = "PINOperation-tvOSTests";
-			productReference = CC0105651E27117300890935 /* PINOperation-tvOSTests.xctest */;
+			productReference = CC0105651E27117300890935 /* ZSPINOperation-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CC0105731E27117F00890935 /* PINOperation-macOSTests */ = {
+		CC0105731E27117F00890935 /* ZSPINOperation-macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC01057C1E27117F00890935 /* Build configuration list for PBXNativeTarget "PINOperation-macOSTests" */;
+			buildConfigurationList = CC01057C1E27117F00890935 /* Build configuration list for PBXNativeTarget "ZSPINOperation-macOSTests" */;
 			buildPhases = (
 				CC0105701E27117F00890935 /* Sources */,
 				CC0105711E27117F00890935 /* Frameworks */,
@@ -373,9 +373,9 @@
 			dependencies = (
 				CC01057B1E27117F00890935 /* PBXTargetDependency */,
 			);
-			name = "PINOperation-macOSTests";
+			name = "ZSPINOperation-macOSTests";
 			productName = "PINOperation-macOSTests";
-			productReference = CC0105741E27117F00890935 /* PINOperation-macOSTests.xctest */;
+			productReference = CC0105741E27117F00890935 /* ZSPINOperation-macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -411,7 +411,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CC0105271E27110D00890935 /* Build configuration list for PBXProject "PINOperation" */;
+			buildConfigurationList = CC0105271E27110D00890935 /* Build configuration list for PBXProject "ZSPINOperation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -424,13 +424,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC01052C1E27110D00890935 /* PINOperation */,
-				CC0105551E27116600890935 /* PINOperationTests */,
-				CC01053C1E27113700890935 /* PINOperation-tvOS */,
-				CC0105641E27117300890935 /* PINOperation-tvOSTests */,
-				CC0105491E27114300890935 /* PINOperation-macOS */,
-				CC0105731E27117F00890935 /* PINOperation-macOSTests */,
-				3201178B24444859004FD783 /* PINOperation-watchOS */,
+				CC01052C1E27110D00890935 /* ZSPINOperation */,
+				CC0105551E27116600890935 /* ZSPINOperationTests */,
+				CC01053C1E27113700890935 /* ZSPINOperation-tvOS */,
+				CC0105641E27117300890935 /* ZSPINOperation-tvOSTests */,
+				CC0105491E27114300890935 /* ZSPINOperation-macOS */,
+				CC0105731E27117F00890935 /* ZSPINOperation-macOSTests */,
+				3201178B24444859004FD783 /* ZSPINOperation-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -556,17 +556,17 @@
 /* Begin PBXTargetDependency section */
 		CC01055D1E27116600890935 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC01052C1E27110D00890935 /* PINOperation */;
+			target = CC01052C1E27110D00890935 /* ZSPINOperation */;
 			targetProxy = CC01055C1E27116600890935 /* PBXContainerItemProxy */;
 		};
 		CC01056C1E27117300890935 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC01053C1E27113700890935 /* PINOperation-tvOS */;
+			target = CC01053C1E27113700890935 /* ZSPINOperation-tvOS */;
 			targetProxy = CC01056B1E27117300890935 /* PBXContainerItemProxy */;
 		};
 		CC01057B1E27117F00890935 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CC0105491E27114300890935 /* PINOperation-macOS */;
+			target = CC0105491E27114300890935 /* ZSPINOperation-macOS */;
 			targetProxy = CC01057A1E27117F00890935 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -592,7 +592,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pinterest.PINOperation-watchOS";
-				PRODUCT_NAME = PINOperation;
+				PRODUCT_NAME = ZSPINOperation;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -619,7 +619,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pinterest.PINOperation-watchOS";
-				PRODUCT_NAME = PINOperation;
+				PRODUCT_NAME = ZSPINOperation;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -788,7 +788,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINOperation;
-				PRODUCT_NAME = PINOperation;
+				PRODUCT_NAME = ZSPINOperation;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -809,7 +809,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINOperation;
-				PRODUCT_NAME = PINOperation;
+				PRODUCT_NAME = ZSPINOperation;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -832,7 +832,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINOperation;
-				PRODUCT_NAME = PINOperation;
+				PRODUCT_NAME = ZSPINOperation;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -853,7 +853,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINOperation;
-				PRODUCT_NAME = PINOperation;
+				PRODUCT_NAME = ZSPINOperation;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -936,7 +936,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3201179324444859004FD783 /* Build configuration list for PBXNativeTarget "PINOperation-watchOS" */ = {
+		3201179324444859004FD783 /* Build configuration list for PBXNativeTarget "ZSPINOperation-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3201179124444859004FD783 /* Debug */,
@@ -945,7 +945,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC0105271E27110D00890935 /* Build configuration list for PBXProject "PINOperation" */ = {
+		CC0105271E27110D00890935 /* Build configuration list for PBXProject "ZSPINOperation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC0105331E27110D00890935 /* Debug */,
@@ -954,7 +954,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC0105351E27110D00890935 /* Build configuration list for PBXNativeTarget "PINOperation" */ = {
+		CC0105351E27110D00890935 /* Build configuration list for PBXNativeTarget "ZSPINOperation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC0105361E27110D00890935 /* Debug */,
@@ -963,7 +963,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC0105421E27113700890935 /* Build configuration list for PBXNativeTarget "PINOperation-tvOS" */ = {
+		CC0105421E27113700890935 /* Build configuration list for PBXNativeTarget "ZSPINOperation-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC0105431E27113700890935 /* Debug */,
@@ -972,7 +972,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC01054F1E27114300890935 /* Build configuration list for PBXNativeTarget "PINOperation-macOS" */ = {
+		CC01054F1E27114300890935 /* Build configuration list for PBXNativeTarget "ZSPINOperation-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC0105501E27114300890935 /* Debug */,
@@ -981,7 +981,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC01055E1E27116600890935 /* Build configuration list for PBXNativeTarget "PINOperationTests" */ = {
+		CC01055E1E27116600890935 /* Build configuration list for PBXNativeTarget "ZSPINOperationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC01055F1E27116600890935 /* Debug */,
@@ -990,7 +990,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC01056D1E27117300890935 /* Build configuration list for PBXNativeTarget "PINOperation-tvOSTests" */ = {
+		CC01056D1E27117300890935 /* Build configuration list for PBXNativeTarget "ZSPINOperation-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC01056E1E27117300890935 /* Debug */,
@@ -999,7 +999,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC01057C1E27117F00890935 /* Build configuration list for PBXNativeTarget "PINOperation-macOSTests" */ = {
+		CC01057C1E27117F00890935 /* Build configuration list for PBXNativeTarget "ZSPINOperation-macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC01057D1E27117F00890935 /* Debug */,

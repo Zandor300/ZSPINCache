@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3201178B24444859004FD783"
-               BuildableName = "PINOperation.framework"
-               BlueprintName = "PINOperation-watchOS"
-               ReferencedContainer = "container:PINOperation.xcodeproj">
+               BuildableName = "ZSPINOperation.framework"
+               BlueprintName = "ZSPINOperation-watchOS"
+               ReferencedContainer = "container:ZSPINOperation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3201178B24444859004FD783"
-            BuildableName = "PINOperation.framework"
-            BlueprintName = "PINOperation-watchOS"
-            ReferencedContainer = "container:PINOperation.xcodeproj">
+            BuildableName = "ZSPINOperation.framework"
+            BlueprintName = "ZSPINOperation-watchOS"
+            ReferencedContainer = "container:ZSPINOperation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
