@@ -6,10 +6,10 @@
 
 #import <pthread.h>
 
-#if !__has_include (<PINOperation/PINOperation.h>)
+#if !__has_include (<ZSPINOperation/PINOperation.h>)
 #import "PINOperation.h"
 #else
-#import <PINOperation/PINOperation.h>
+#import <ZSPINOperation/PINOperation.h>
 #endif
 
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_4_0

@@ -4,10 +4,10 @@
 
 #import "PINCache.h"
 
-#if !__has_include (<PINOperation/PINOperation.h>)
+#if !__has_include (<ZSPINOperation/PINOperation.h>)
 #import "PINOperation.h"
 #else
-#import <PINOperation/PINOperation.h>
+#import <ZSPINOperation/PINOperation.h>
 #endif
 
 static NSString * const PINCachePrefix = @"com.pinterest.PINCache";

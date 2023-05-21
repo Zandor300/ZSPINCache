@@ -11,10 +11,10 @@
 #import <pthread.h>
 #import <sys/xattr.h>
 
-#if !__has_include (<PINOperation/PINOperation.h>)
+#if !__has_include (<ZSPINOperation/PINOperation.h>)
 #import "PINOperation.h"
 #else
-#import <PINOperation/PINOperation.h>
+#import <ZSPINOperation/PINOperation.h>
 #endif
 
 #define PINDiskCacheError(error) if (error) { NSLog(@"%@ (%d) ERROR: %@", \
