@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'ZSPINCache'
-  s.version       = '3.1.1'
+  s.version       = '3.1.2'
   s.homepage      = 'https://github.com/Zandor300/ZSPINCache'
   s.summary       = 'Fast, thread safe, parallel object cache for iOS and OS X.'
   s.authors       = { 'Zandor Smith' => 'info@zsinfo.nl' }
