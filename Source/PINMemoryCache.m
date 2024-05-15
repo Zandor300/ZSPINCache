@@ -6,7 +6,7 @@
 
 #import <pthread.h>
 
-#import <PINOperation/PINOperation.h>
+#import <ZSPINOperation/PINOperation.h>
 
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_4_0
 #import <UIKit/UIKit.h>
