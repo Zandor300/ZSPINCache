@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'ZSPINCache'
-  s.version       = '3.1.2'
+  s.version       = '3.2.0'
   s.homepage      = 'https://github.com/Zandor300/ZSPINCache'
   s.summary       = 'Fast, thread safe, parallel object cache for iOS and OS X.'
   s.authors       = { 'Zandor Smith' => 'info@zsinfo.nl' }
@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   s.ios.weak_frameworks   = 'UIKit'
   s.osx.weak_frameworks   = 'AppKit'
   s.cocoapods_version = '>= 1.13.0'
-  s.ios.deployment_target = '12.0'
-  s.osx.deployment_target = '11.0'
-  s.tvos.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
+  s.osx.deployment_target = '12.0'
+  s.tvos.deployment_target = '15.0'
   s.visionos.deployment_target = '1.0'
-  s.watchos.deployment_target = '4.0'
+  s.watchos.deployment_target = '9.0'
   pch_PIN = <<-EOS
 #ifndef TARGET_OS_WATCH
   #define TARGET_OS_WATCH 0
@@ -24,7 +24,7 @@ EOS
   s.prefix_header_contents = pch_PIN
   s.subspec 'Core' do |sp|
       sp.source_files  = 'Source/*.{h,m}'
-      sp.dependency 'ZSPINOperation', '~> 1.3.3'
+      sp.dependency 'ZSPINOperation', '~> 1.4'
   end
   s.subspec 'Arc-exception-safe' do |sp|
       sp.dependency 'ZSPINCache/Core'
